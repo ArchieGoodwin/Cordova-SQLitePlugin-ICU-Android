@@ -33,7 +33,7 @@ public class SQLitePlugin extends CordovaPlugin
 	static HashMap<String, Long> dbmap = new HashMap<String, Long>();
 
 	static {
-		System.loadLibrary("sqlg");
+		System.loadLibrary("suliteicu");
 	}
 
 	/**
