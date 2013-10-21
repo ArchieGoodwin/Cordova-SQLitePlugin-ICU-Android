@@ -1,11 +1,11 @@
 /*
- * PhoneGap is available under *either* the terms of the modified BSD license *or* the
- * MIT License (2008). See http://opensource.org/licenses/alphabetical for full text.
- *
+ * Copyright (c) 2012-2013, Chris Brody
  * Copyright (c) 2005-2010, Nitobi Software Inc.
  * Copyright (c) 2010, IBM Corporation
+ *
+ * License: MIT or Apache 2.0
  */
-package org.pgsqlite;
+package org.sulite;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -20,7 +20,7 @@ import java.util.HashMap;
 import org.apache.cordova.api.CordovaPlugin;
 import org.apache.cordova.api.CallbackContext;
 
-import org.sqlg.SQLiteGlue;
+/* NOTE: SQLiteGlue is now in the same package. */
 
 import android.util.Base64;
 import android.util.Log;
