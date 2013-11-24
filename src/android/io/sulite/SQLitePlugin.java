@@ -5,7 +5,7 @@
  *
  * License: MIT or Apache 2.0
  */
-package org.sulite;
+package io.sulite;
 
 import org.json.JSONArray;
 import org.json.JSONException;
